@@ -1,0 +1,23 @@
+{
+  "name": "adv-fe2",
+  "homepage": "https://github.com/toxaestel/adv-fe2",
+  "authors": [
+    "Anton Khomenko <toxaestel@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": ">0.1",
+    "underscore": "1.8.3",
+    "backbone": "1.x.x",
+    "angular": "^1.5.5"
+  }
+}
