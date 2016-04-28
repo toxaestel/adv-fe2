@@ -1,0 +1,27 @@
+{
+  "name": "adv-fe2",
+  "version": "1.0.0",
+  "description": "\"# adv-fe2\"",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxaestel/adv-fe2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toxaestel/adv-fe2/issues"
+  },
+  "homepage": "https://github.com/toxaestel/adv-fe2#readme"
+}

@@ -17,7 +17,7 @@
   "dependencies": {
     "react": ">0.1",
     "underscore": "1.8.3",
-    "backbone": "1.x.x",
+    "backbone": "^1.x.x",
     "angular": "^1.5.5"
   }
 }
