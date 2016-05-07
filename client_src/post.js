@@ -7,10 +7,10 @@
             return new Handlebars.SafeString(string);
         });
 
-        Handlebars.registerHelper('striped', function () {
+        Handlebars.registerHelper('striped', function (items, opts) {
             var result = '<table class="striped">';
             $(this.posts).each(function (ignore, el) {
-                result += '<tr><td>' + el.description + '</td></tr>';
+                result += '<tr><td>' + opts.fn(el) + '</td></tr>';
             });
             result += '</table>';
             return result;
