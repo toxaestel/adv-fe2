@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Posts</title>
+    <link rel="stylesheet" href="libs/Materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="base">
+    <header>
+        <div class="container container-header">
+            <b>Header</b>
+        </div>
+    </header>
 
+    <div class="container container-posts">
+        <div class="row">
+            <div class="col s12">
+                <div id="JSONPosts"></div>
+            </div>
+            <div class="col s12">
+                <div id="stripedPosts"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container container-footer">
+        <b>Footer</b>
+    </div>
+</footer>
+
+    <script id="template-JSON-posts" type="text/x-handlebars-template">
+            <pre><code>{{JSON posts}}</code></pre>
+    </script>
+
+    <script id="template-striped-posts" type="text/x-handlebars-template">
+        {{#striped posts}}
+            {{description}}
+        {{/striped}}
+    </script>
+
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/Materialize/dist/js/materialize.min.js"></script>
+    <script src="libs/handlebars/handlebars.min.js"></script>
+    <script src="data.js"></script>
+    <script src="post.js"></script>
 </body>
 </html>

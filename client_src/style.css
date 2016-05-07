@@ -1,0 +1,34 @@
+/* --------- LAYOUT ----------- */
+html,body {
+    min-height: 100%;
+    height: 100%;
+}
+.base {
+    min-height: 100%;
+    background: rgb(230, 230, 230);
+}
+/* header */
+header, footer {
+    min-height: 46px;
+    line-height: 46px;
+    background: rgb(100, 100, 120);
+    color: rgba(255, 255, 255, 0.8);
+}
+/* /header */
+/* misc */
+.row {
+    margin: 0;
+}
+/* /misc */
+/* --------- /LAYOUT ---------- */
+/* --------- CONTENT ---------- */
+/* posts */
+.container-posts {
+    background: rgb(250, 250, 250);
+    box-shadow: 0 0 6px rgba(33, 33, 33, 0.3);
+}
+#JSONPosts {
+    padding: 15px 30px;
+}
+/* /posts */
+/* --------- /CONTENT --------- */
