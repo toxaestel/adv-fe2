@@ -8,9 +8,11 @@
         });
 
         Handlebars.registerHelper('striped', function (items, opts) {
-            var result = '<table class="striped">';
-            $(this.posts).each(function (ignore, el) {
-                result += '<tr><td>' + opts.fn(el) + '</td></tr>';
+            var result = '<table>';
+            var cellClass = '';
+            $(this.posts).each(function (i, el) {
+                cellClass = i % 2 == 0 ? 'table_row_odd' : 'table_row_even';
+                result += '<tr class="' + cellClass + '"><td>' + opts.fn(el) + '</td></tr>';
             });
             result += '</table>';
             return result;

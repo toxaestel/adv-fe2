@@ -1,3 +1,8 @@
+/* --------- COMMON ------------ */
+.table_row_odd {
+    background-color: rgb(225, 225, 225);
+}
+/* --------- /COMMON ----------- */
 /* --------- LAYOUT ----------- */
 html,body {
     min-height: 100%;
