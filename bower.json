@@ -1,23 +1,14 @@
 {
-  "name": "adv-fe2",
-  "homepage": "https://github.com/toxaestel/adv-fe2",
-  "authors": [
-    "Anton Khomenko <toxaestel@gmail.com>"
-  ],
+  "name": "tst",
   "description": "",
-  "main": "",
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+  "main": "index.html",
+  "authors": [
+    "okonkwo <nickolas.shishov@yandex.ua>"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com/okonkwo/advanced-fe",
+  "moduleType": [],
   "dependencies": {
-    "react": ">0.1",
-    "underscore": "1.8.3",
-    "backbone": "^1.x.x",
-    "angular": "x"
+    "jquery": "~2.1.4"
   }
 }
